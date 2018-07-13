@@ -19,6 +19,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ This block is called when the user cancels an apple pay payment after
+ the payment token has already  been created.
+ */
 typedef void(^STPCancelInteruptsPaymentBlockHandler) (void);
 
 @class STPPaymentContext, STPAPIClient, STPTheme, STPCustomerContext;
